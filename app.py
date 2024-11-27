@@ -11,7 +11,7 @@ import io
 import base64
 
 # Configure Google Gemini API Key
-GOOGLE_API_KEY = "AIzaSyC2WQxqS9Cg3XcWb5xkFkz6tnI8knzBC3Q"
+GOOGLE_API_KEY = "Gemini API Key"
 llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash", google_api_key=GOOGLE_API_KEY)
 
 # Function to convert an image to Base64 format
